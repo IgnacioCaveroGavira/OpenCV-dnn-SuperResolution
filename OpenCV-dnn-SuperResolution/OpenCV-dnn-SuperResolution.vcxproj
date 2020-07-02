@@ -72,18 +72,22 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
     <LibraryPath>$(SolutionDir)Dependencies\OpenCV\lib\Debug;$(SolutionDir)Dependencies\OpenCV\lib;$(LibraryPath)</LibraryPath>
+    <PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
     <LibraryPath>$(SolutionDir)Dependencies\OpenCV\lib\Debug;$(SolutionDir)Dependencies\OpenCV\lib;$(LibraryPath)</LibraryPath>
+    <PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
     <LibraryPath>$(SolutionDir)Dependencies\OpenCV\lib\Release;$(SolutionDir)Dependencies\OpenCV\lib;$(LibraryPath)</LibraryPath>
+    <PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
     <LibraryPath>$(SolutionDir)Dependencies\OpenCV\lib\Release;$(SolutionDir)Dependencies\OpenCV\lib;$(LibraryPath)</LibraryPath>
+    <PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -99,6 +103,13 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>ippicvmt.lib;opencv_dnn_superres430d.lib;opencv_imgcodecs430d.lib;opencv_core430d.lib;opencv_dnn430d.lib;opencv_imgproc430d.lib;libjpeg-turbod.lib;libtiffd.lib;libpngd.lib;libjasperd.lib;libwebpd.lib;libprotobufd.lib;ittnotifyd.lib;ippiwd.lib;zlibd.lib;IlmImfd.lib</AdditionalDependencies>
     </Link>
+    <PostBuildEvent>
+      <Command>ROBOCOPY $(SolutionDir)OpenCV-dnn-SuperResolution    $(SolutionDir)$(PlatformTarget)\$(Configuration)   SuperResolution.conf
+ROBOCOPY $(SolutionDir)Resources\   $(SolutionDir)$(PlatformTarget)\$(Configuration)   image.jpg
+ROBOCOPY $(SolutionDir)Resources\dnn_Models   $(SolutionDir)$(PlatformTarget)\$(Configuration)\dnn_Models
+
+</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
@@ -114,6 +125,13 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>ippicvmt.lib;opencv_dnn_superres430d.lib;opencv_imgcodecs430d.lib;opencv_core430d.lib;opencv_dnn430d.lib;opencv_imgproc430d.lib;libjpeg-turbod.lib;libtiffd.lib;libpngd.lib;libjasperd.lib;libwebpd.lib;libprotobufd.lib;ittnotifyd.lib;ippiwd.lib;zlibd.lib;IlmImfd.lib</AdditionalDependencies>
     </Link>
+    <PostBuildEvent>
+      <Command>ROBOCOPY $(SolutionDir)OpenCV-dnn-SuperResolution    $(SolutionDir)$(PlatformTarget)\$(Configuration)   SuperResolution.conf
+ROBOCOPY $(SolutionDir)Resources\   $(SolutionDir)$(PlatformTarget)\$(Configuration)   image.jpg
+ROBOCOPY $(SolutionDir)Resources\dnn_Models   $(SolutionDir)$(PlatformTarget)\$(Configuration)\dnn_Models
+
+</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
@@ -133,6 +151,13 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>ippicvmt.lib;opencv_dnn_superres430.lib;opencv_imgcodecs430.lib;opencv_core430.lib;opencv_dnn430.lib;opencv_imgproc430.lib;libjpeg-turbo.lib;libtiff.lib;libpng.lib;libjasper.lib;libwebp.lib;libprotobuf.lib;ittnotify.lib;ippiw.lib;zlib.lib;IlmImf.lib</AdditionalDependencies>
     </Link>
+    <PostBuildEvent>
+      <Command>ROBOCOPY $(SolutionDir)OpenCV-dnn-SuperResolution    $(SolutionDir)$(PlatformTarget)\$(Configuration)   SuperResolution.conf
+ROBOCOPY $(SolutionDir)Resources\   $(SolutionDir)$(PlatformTarget)\$(Configuration)   image.jpg
+ROBOCOPY $(SolutionDir)Resources\dnn_Models   $(SolutionDir)$(PlatformTarget)\$(Configuration)\dnn_Models
+
+</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
@@ -152,6 +177,13 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>ippicvmt.lib;opencv_dnn_superres430.lib;opencv_imgcodecs430.lib;opencv_core430.lib;opencv_dnn430.lib;opencv_imgproc430.lib;libjpeg-turbo.lib;libtiff.lib;libpng.lib;libjasper.lib;libwebp.lib;libprotobuf.lib;ittnotify.lib;ippiw.lib;zlib.lib;IlmImf.lib</AdditionalDependencies>
     </Link>
+    <PostBuildEvent>
+      <Command>ROBOCOPY $(SolutionDir)OpenCV-dnn-SuperResolution    $(SolutionDir)$(PlatformTarget)\$(Configuration)   SuperResolution.conf
+ROBOCOPY $(SolutionDir)Resources\   $(SolutionDir)$(PlatformTarget)\$(Configuration)   image.jpg
+ROBOCOPY $(SolutionDir)Resources\dnn_Models   $(SolutionDir)$(PlatformTarget)\$(Configuration)\dnn_Models
+
+</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
