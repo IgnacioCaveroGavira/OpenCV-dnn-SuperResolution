@@ -34,7 +34,7 @@ int main(int argc, char* argv[])
 
 		//Read model and set scale to get correct pre- and post-processing
 		cout << "Reading model......" << endl;
-		sr.readModel(cf[CONF_MODELS_PATH] + "/" + cf[CONF_MODEL_NAME]);
+		sr.readModel(cf[CONF_MODELS_PATH] + "/" + cf[CONF_MODEL_FILE]);
 		sr.setModel(cf[CONF_MODEL_TYPE], std::stoi(cf[CONF_SCALE]));
 
 
