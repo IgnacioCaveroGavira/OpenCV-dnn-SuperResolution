@@ -35,7 +35,7 @@ either as a final result or as a "pre-cleaning" for another imaging process.
 SuperResDNN is an executable program (prompt console), follow the next steps: 
 1. Download the executable version according to your platform architecture (currently only x64 version).
 2. Download resources folder.
-3. Place the executable and the unzipped resources into the same destination folder.
+3. Place the executable and resources into the same destination folder.
 4. Configure SuperResDNN.conf. This file contains configuration parameters like imagen file name, model to use, paths, etc. By default the program will upscale the image “Example.jpg” with the model “FSRCNN_x4.pb”.
 5. Run the executable SuperResDNN.exe.
 
