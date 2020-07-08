@@ -88,10 +88,10 @@
     <None Include="..\Resources\dnn_Models\LapSRN_x8.pb">
       <Filter>Resource Files\dnn_models</Filter>
     </None>
-    <None Include="..\Releases\x64\SuperResDNN.exe">
+    <None Include="..\README.md" />
+    <None Include="..\Releases\x64\SuperResDNN_x64.zip">
       <Filter>Releases\x64</Filter>
     </None>
-    <None Include="..\README.md" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="..\Resources\Example.jpg">

@@ -196,7 +196,7 @@ ROBOCOPY $(SolutionDir)Resources\dnn_Models   $(SolutionDir)$(PlatformTarget)\$(
   </ItemGroup>
   <ItemGroup>
     <None Include="..\README.md" />
-    <None Include="..\Releases\x64\SuperResDNN.exe" />
+    <None Include="..\Releases\x64\SuperResDNN_x64.zip" />
     <None Include="..\Resources\dnn_Models\EDSR_x2.pb" />
     <None Include="..\Resources\dnn_Models\EDSR_x3.pb" />
     <None Include="..\Resources\dnn_Models\EDSR_x4.pb" />
