@@ -33,7 +33,7 @@ either as a final result or as a "pre-cleaning" for another imaging process.
 
 ## How to install SuperResDNN program
 SuperResDNN is an executable program (prompt console), follow the next steps: 
-1. Download the realase .zip version according to your platform architecture (currently only x64 version).
+1. Download from release folder the file .zip version according to your platform architecture (currently only x64 version).
 2. Unzip the file.
 3. Configure SuperResDNN.conf. This file contains configuration parameters like imagen file name, model to use, paths, etc. By default the program will upscale the image “Example.jpg” with the model “FSRCNN_x4.pb”.
 4. Run the executable SuperResDNN.exe.
