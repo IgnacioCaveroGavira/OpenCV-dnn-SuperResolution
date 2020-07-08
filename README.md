@@ -23,15 +23,15 @@ either as a final result or as a "pre-cleaning" for another imaging process.
 
 
 ## Contents
-- [How to install SuperResDNN program?](#How_to_install_SuperResDNN_program?)
-- [For developers](#For_developers)
-- [CMake configuration for Visual Studio](#CMake_configuration_for_Visual_Studio)
-- [Build OpenCV libs](#Build_OpenCV_libs)
-- [Visual Studio configuration](#Visual_Studio_configuration)
-- [References and special thanks](#References_and_special_thanks)
+- [How to install SuperResDNN program](#how-to-install-superresdnn-program)
+- [For developers](#for-developers)
+- [CMake configuration for Visual Studio](#cmake-configuration-for-visual-studio)
+- [Build OpenCV libs](#build-opencv-libs)
+- [Visual Studio configuration](#visual-studio-configuration)
+- [References and special thanks](#references-and-special-thanks)
 
 
-## How to install the SuperResDNN program?
+## How to install SuperResDNN program
 SuperResDNN is an executable program (prompt console), follow the next steps: 
 1. Download the executable version according to your platform architecture (currently only x64 version).
 2. Download resources folder.
