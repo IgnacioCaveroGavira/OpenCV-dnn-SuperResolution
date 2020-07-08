@@ -23,6 +23,7 @@
     <ProjectGuid>{3C4D7581-6779-4A6C-9497-84B777637D6E}</ProjectGuid>
     <RootNamespace>OpenCVdnnSuperResolution</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>SuperResDNN</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -194,7 +195,7 @@ ROBOCOPY $(SolutionDir)Resources\dnn_Models   $(SolutionDir)$(PlatformTarget)\$(
     <ClInclude Include="MyUtils.hpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="SuperResolution.conf" />
+    <None Include="..\Resources\SuperResDNN.conf" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

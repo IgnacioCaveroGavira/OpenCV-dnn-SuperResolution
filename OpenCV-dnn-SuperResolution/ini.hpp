@@ -2,7 +2,7 @@
 
 #include <string>
 
-const std::string CONF_CONFIGURATION_FILE = "SuperResolution.conf";
+const std::string CONF_CONFIGURATION_FILE = "SuperResDNN.conf";
 const char CONF_FILE_SEPARATOR = '=';
 
 

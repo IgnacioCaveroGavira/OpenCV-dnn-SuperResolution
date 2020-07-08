@@ -31,6 +31,8 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="SuperResolution.conf" />
+    <None Include="..\Resources\SuperResDNN.conf">
+      <Filter>Resource Files</Filter>
+    </None>
   </ItemGroup>
 </Project>
