@@ -5,7 +5,22 @@ This repository is a first approach of using the OpenCV deep neural network for 
 The final goal is a program (SuperResDNN) for testing different neural models and implementations performance, as well as being able to execute the super-resolution process on a set of images, 
 either as a final result or as a "pre-cleaning" for another imaging process.
 
-![Face]READMEAssets/Face_comp.jpg
+## Some examples
+
+| Red butterfly |
+|:--:|
+|![Red butterfly](READMEAssets/Butterfly_red_comp.png)|
+| Low resolution image (left), upscaled image (right) |
+
+
+| Woman face |
+|:--:|
+|![Face](READMEAssets/Face_comp.jpg)|
+| Low resolution image (left), upscaled image (right) |
+
+
+
+
 
 ## Contents
 - [How to install SuperResDNN program?](#How_to_install_SuperResDNN_program?)
