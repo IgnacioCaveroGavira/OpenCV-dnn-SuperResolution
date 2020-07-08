@@ -16,6 +16,12 @@
     <Filter Include="Resource Files\dnn_models">
       <UniqueIdentifier>{f412ea29-3ec0-4493-b2e0-40ffe3987413}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Releases">
+      <UniqueIdentifier>{c4efe536-b1f8-40b0-96d7-ea421cd686a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Releases\x64">
+      <UniqueIdentifier>{62156057-ac13-4824-990c-d24dee3d1d12}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -81,6 +87,9 @@
     </None>
     <None Include="..\Resources\dnn_Models\LapSRN_x8.pb">
       <Filter>Resource Files\dnn_models</Filter>
+    </None>
+    <None Include="..\Releases\x64\SuperResDNN.exe">
+      <Filter>Releases\x64</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
