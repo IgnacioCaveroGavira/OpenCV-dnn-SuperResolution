@@ -33,12 +33,12 @@ either as a final result or as a "pre-cleaning" for another imaging process.
 
 ## How to install SuperResDNN program
 SuperResDNN is an executable program (prompt console), follow the next steps: 
-1. Download the executable version according to your platform architecture (currently only x64 version).
-2. Download resources folder.
-3. Place the executable and resources into the same destination folder.
-4. Configure SuperResDNN.conf. This file contains configuration parameters like imagen file name, model to use, paths, etc. By default the program will upscale the image “Example.jpg” with the model “FSRCNN_x4.pb”.
-5. Run the executable SuperResDNN.exe.
+1. Download the realase .zip version according to your platform architecture (currently only x64 version).
+2. Unzip the file.
+3. Configure SuperResDNN.conf. This file contains configuration parameters like imagen file name, model to use, paths, etc. By default the program will upscale the image “Example.jpg” with the model “FSRCNN_x4.pb”.
+4. Run the executable SuperResDNN.exe.
 
+*You can download other models from Resoucers/dnn_models or Internet.
 
 ## For developers
 This project is made with OpenCV 4.3.0 and extra contributed module DNN superres. OpenCV framework was compiled as static .libs to build light programs. 
