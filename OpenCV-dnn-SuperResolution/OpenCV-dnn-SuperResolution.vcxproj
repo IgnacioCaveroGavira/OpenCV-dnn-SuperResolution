@@ -195,7 +195,25 @@ ROBOCOPY $(SolutionDir)Resources\dnn_Models   $(SolutionDir)$(PlatformTarget)\$(
     <ClInclude Include="MyUtils.hpp" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\Resources\dnn_Models\EDSR_x2.pb" />
+    <None Include="..\Resources\dnn_Models\EDSR_x3.pb" />
+    <None Include="..\Resources\dnn_Models\EDSR_x4.pb" />
+    <None Include="..\Resources\dnn_Models\ESPCN_x2.pb" />
+    <None Include="..\Resources\dnn_Models\ESPCN_x3.pb" />
+    <None Include="..\Resources\dnn_Models\ESPCN_x4.pb" />
+    <None Include="..\Resources\dnn_Models\FSRCNN-small_x2.pb" />
+    <None Include="..\Resources\dnn_Models\FSRCNN-small_x3.pb" />
+    <None Include="..\Resources\dnn_Models\FSRCNN-small_x4.pb" />
+    <None Include="..\Resources\dnn_Models\FSRCNN_x2.pb" />
+    <None Include="..\Resources\dnn_Models\FSRCNN_x3.pb" />
+    <None Include="..\Resources\dnn_Models\FSRCNN_x4.pb" />
+    <None Include="..\Resources\dnn_Models\LapSRN_x2.pb" />
+    <None Include="..\Resources\dnn_Models\LapSRN_x4.pb" />
+    <None Include="..\Resources\dnn_Models\LapSRN_x8.pb" />
     <None Include="..\Resources\SuperResDNN.conf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Resources\Example.jpg" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

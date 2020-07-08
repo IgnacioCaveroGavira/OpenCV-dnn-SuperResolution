@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Resource Files\dnn_models">
+      <UniqueIdentifier>{f412ea29-3ec0-4493-b2e0-40ffe3987413}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -34,5 +37,55 @@
     <None Include="..\Resources\SuperResDNN.conf">
       <Filter>Resource Files</Filter>
     </None>
+    <None Include="..\Resources\dnn_Models\EDSR_x2.pb">
+      <Filter>Resource Files\dnn_models</Filter>
+    </None>
+    <None Include="..\Resources\dnn_Models\EDSR_x3.pb">
+      <Filter>Resource Files\dnn_models</Filter>
+    </None>
+    <None Include="..\Resources\dnn_Models\EDSR_x4.pb">
+      <Filter>Resource Files\dnn_models</Filter>
+    </None>
+    <None Include="..\Resources\dnn_Models\ESPCN_x2.pb">
+      <Filter>Resource Files\dnn_models</Filter>
+    </None>
+    <None Include="..\Resources\dnn_Models\ESPCN_x3.pb">
+      <Filter>Resource Files\dnn_models</Filter>
+    </None>
+    <None Include="..\Resources\dnn_Models\ESPCN_x4.pb">
+      <Filter>Resource Files\dnn_models</Filter>
+    </None>
+    <None Include="..\Resources\dnn_Models\FSRCNN_x2.pb">
+      <Filter>Resource Files\dnn_models</Filter>
+    </None>
+    <None Include="..\Resources\dnn_Models\FSRCNN_x3.pb">
+      <Filter>Resource Files\dnn_models</Filter>
+    </None>
+    <None Include="..\Resources\dnn_Models\FSRCNN_x4.pb">
+      <Filter>Resource Files\dnn_models</Filter>
+    </None>
+    <None Include="..\Resources\dnn_Models\FSRCNN-small_x2.pb">
+      <Filter>Resource Files\dnn_models</Filter>
+    </None>
+    <None Include="..\Resources\dnn_Models\FSRCNN-small_x3.pb">
+      <Filter>Resource Files\dnn_models</Filter>
+    </None>
+    <None Include="..\Resources\dnn_Models\FSRCNN-small_x4.pb">
+      <Filter>Resource Files\dnn_models</Filter>
+    </None>
+    <None Include="..\Resources\dnn_Models\LapSRN_x2.pb">
+      <Filter>Resource Files\dnn_models</Filter>
+    </None>
+    <None Include="..\Resources\dnn_Models\LapSRN_x4.pb">
+      <Filter>Resource Files\dnn_models</Filter>
+    </None>
+    <None Include="..\Resources\dnn_Models\LapSRN_x8.pb">
+      <Filter>Resource Files\dnn_models</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Resources\Example.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
   </ItemGroup>
 </Project>
