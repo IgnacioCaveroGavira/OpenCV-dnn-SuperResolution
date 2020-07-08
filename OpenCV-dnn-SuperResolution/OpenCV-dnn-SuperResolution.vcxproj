@@ -195,6 +195,7 @@ ROBOCOPY $(SolutionDir)Resources\dnn_Models   $(SolutionDir)$(PlatformTarget)\$(
     <ClInclude Include="MyUtils.hpp" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\README.md" />
     <None Include="..\Releases\x64\SuperResDNN.exe" />
     <None Include="..\Resources\dnn_Models\EDSR_x2.pb" />
     <None Include="..\Resources\dnn_Models\EDSR_x3.pb" />

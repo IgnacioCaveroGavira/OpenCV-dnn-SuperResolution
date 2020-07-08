@@ -91,6 +91,7 @@
     <None Include="..\Releases\x64\SuperResDNN.exe">
       <Filter>Releases\x64</Filter>
     </None>
+    <None Include="..\README.md" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="..\Resources\Example.jpg">
